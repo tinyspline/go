@@ -39,15 +39,15 @@ typedef struct { void* array; intgo len; intgo cap; } _goslice_;
 #cgo windows,amd64,stdcxxshared LDFLAGS:  -L${SRCDIR} -L${SRCDIR}/windows-x86_64 -ltinysplinego -lstdc++-6
 
 typedef _gostring_ swig_type_1;
-typedef _gostring_ swig_type_2;
+typedef _goslice_ swig_type_2;
 typedef _gostring_ swig_type_3;
-typedef _gostring_ swig_type_4;
+typedef _goslice_ swig_type_4;
 typedef _gostring_ swig_type_5;
-typedef _gostring_ swig_type_6;
+typedef _goslice_ swig_type_6;
 typedef _gostring_ swig_type_7;
-typedef _goslice_ swig_type_8;
-typedef _goslice_ swig_type_9;
-typedef _goslice_ swig_type_10;
+typedef _gostring_ swig_type_8;
+typedef _gostring_ swig_type_9;
+typedef _gostring_ swig_type_10;
 typedef _goslice_ swig_type_11;
 typedef _goslice_ swig_type_12;
 typedef _goslice_ swig_type_13;
@@ -58,24 +58,27 @@ typedef _goslice_ swig_type_17;
 typedef _goslice_ swig_type_18;
 typedef _goslice_ swig_type_19;
 typedef _goslice_ swig_type_20;
-typedef _gostring_ swig_type_21;
-typedef _gostring_ swig_type_22;
+typedef _goslice_ swig_type_21;
+typedef _goslice_ swig_type_22;
 typedef _goslice_ swig_type_23;
-typedef _goslice_ swig_type_24;
-typedef _goslice_ swig_type_25;
+typedef _gostring_ swig_type_24;
+typedef _gostring_ swig_type_25;
 typedef _goslice_ swig_type_26;
 typedef _goslice_ swig_type_27;
 typedef _goslice_ swig_type_28;
 typedef _goslice_ swig_type_29;
 typedef _goslice_ swig_type_30;
-typedef _gostring_ swig_type_31;
-typedef _gostring_ swig_type_32;
-typedef _gostring_ swig_type_33;
-typedef _goslice_ swig_type_34;
-typedef _goslice_ swig_type_35;
-typedef _goslice_ swig_type_36;
+typedef _goslice_ swig_type_31;
+typedef _goslice_ swig_type_32;
+typedef _goslice_ swig_type_33;
+typedef _gostring_ swig_type_34;
+typedef _gostring_ swig_type_35;
+typedef _gostring_ swig_type_36;
 typedef _goslice_ swig_type_37;
-typedef _gostring_ swig_type_38;
+typedef _goslice_ swig_type_38;
+typedef _goslice_ swig_type_39;
+typedef _goslice_ swig_type_40;
+typedef _gostring_ swig_type_41;
 extern void _wrap_Swig_free_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_Swig_malloc_tinyspline_beac5664a71e2f0d(swig_intgo arg1);
 extern uintptr_t _wrap_new_Vec2__SWIG_0_tinyspline_beac5664a71e2f0d(void);
@@ -83,6 +86,7 @@ extern uintptr_t _wrap_new_Vec2__SWIG_1_tinyspline_beac5664a71e2f0d(double arg1,
 extern uintptr_t _wrap_Vec2_add_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_Vec2_subtract_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_Vec2_multiply_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2);
+extern uintptr_t _wrap_Vec2_normalize_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_Vec2_norm_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern double _wrap_Vec2_magnitude_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern double _wrap_Vec2_dot_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
@@ -93,6 +97,7 @@ extern void _wrap_Vec2_x_set_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double 
 extern double _wrap_Vec2_x_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern void _wrap_Vec2_y_set_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2);
 extern double _wrap_Vec2_y_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_2 _wrap_Vec2_values_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern void _wrap_delete_Vec2_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_new_Vec3__SWIG_0_tinyspline_beac5664a71e2f0d(void);
 extern uintptr_t _wrap_new_Vec3__SWIG_1_tinyspline_beac5664a71e2f0d(double arg1, double arg2, double arg3);
@@ -100,30 +105,33 @@ extern uintptr_t _wrap_Vec3_add_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uint
 extern uintptr_t _wrap_Vec3_subtract_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_Vec3_multiply_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2);
 extern uintptr_t _wrap_Vec3_cross_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Vec3_normalize_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_Vec3_norm_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern double _wrap_Vec3_magnitude_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern double _wrap_Vec3_dot_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
 extern double _wrap_Vec3_angle_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
 extern double _wrap_Vec3_distance_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
-extern swig_type_2 _wrap_Vec3_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_3 _wrap_Vec3_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern void _wrap_Vec3_x_set_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2);
 extern double _wrap_Vec3_x_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern void _wrap_Vec3_y_set_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2);
 extern double _wrap_Vec3_y_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern void _wrap_Vec3_z_set_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2);
 extern double _wrap_Vec3_z_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_4 _wrap_Vec3_values_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern void _wrap_delete_Vec3_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_new_Vec4__SWIG_0_tinyspline_beac5664a71e2f0d(void);
 extern uintptr_t _wrap_new_Vec4__SWIG_1_tinyspline_beac5664a71e2f0d(double arg1, double arg2, double arg3, double arg4);
 extern uintptr_t _wrap_Vec4_add_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_Vec4_subtract_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_Vec4_multiply_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2);
+extern uintptr_t _wrap_Vec4_normalize_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_Vec4_norm_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern double _wrap_Vec4_magnitude_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern double _wrap_Vec4_dot_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
 extern double _wrap_Vec4_angle_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
 extern double _wrap_Vec4_distance_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
-extern swig_type_3 _wrap_Vec4_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_5 _wrap_Vec4_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern void _wrap_Vec4_x_set_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2);
 extern double _wrap_Vec4_x_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern void _wrap_Vec4_y_set_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2);
@@ -132,9 +140,10 @@ extern void _wrap_Vec4_z_set_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double 
 extern double _wrap_Vec4_z_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern void _wrap_Vec4_w_set_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2);
 extern double _wrap_Vec4_w_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_6 _wrap_Vec4_values_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern void _wrap_delete_Vec4_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_new_Frame_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern swig_type_4 _wrap_Frame_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_7 _wrap_Frame_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_Frame_position_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_Frame_tangent_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_Frame_normal_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
@@ -145,9 +154,9 @@ extern uintptr_t _wrap_new_FrameSeq__SWIG_1_tinyspline_beac5664a71e2f0d(uintptr_
 extern void _wrap_delete_FrameSeq_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern swig_intgo _wrap_FrameSeq_size_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_FrameSeq_at_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_intgo arg2);
-extern swig_type_5 _wrap_FrameSeq_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_8 _wrap_FrameSeq_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_new_Domain_tinyspline_beac5664a71e2f0d(double arg1, double arg2);
-extern swig_type_6 _wrap_Domain_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_9 _wrap_Domain_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern double _wrap_Domain_min_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern double _wrap_Domain_max_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern void _wrap_delete_Domain_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
@@ -159,14 +168,14 @@ extern uintptr_t _wrap_DeBoorNet_resultVec3__SWIG_0_tinyspline_beac5664a71e2f0d(
 extern uintptr_t _wrap_DeBoorNet_resultVec3__SWIG_1_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_DeBoorNet_resultVec4__SWIG_0_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_intgo arg2);
 extern uintptr_t _wrap_DeBoorNet_resultVec4__SWIG_1_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
-extern swig_type_7 _wrap_DeBoorNet_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_10 _wrap_DeBoorNet_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern double _wrap_DeBoorNet_knot_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern swig_intgo _wrap_DeBoorNet_index_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern swig_intgo _wrap_DeBoorNet_multiplicity_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern swig_intgo _wrap_DeBoorNet_numInsertions_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern swig_intgo _wrap_DeBoorNet_dimension_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
-extern swig_type_8 _wrap_DeBoorNet_points_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
-extern swig_type_9 _wrap_DeBoorNet_result_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_11 _wrap_DeBoorNet_points_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_12 _wrap_DeBoorNet_result_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern swig_intgo _wrap_Opened_BSpline_tinyspline_beac5664a71e2f0d(void);
 extern swig_intgo _wrap_Clamped_BSpline_tinyspline_beac5664a71e2f0d(void);
 extern swig_intgo _wrap_Beziers_BSpline_tinyspline_beac5664a71e2f0d(void);
@@ -177,23 +186,23 @@ extern uintptr_t _wrap_new_BSpline__SWIG_3_tinyspline_beac5664a71e2f0d(swig_intg
 extern uintptr_t _wrap_new_BSpline__SWIG_4_tinyspline_beac5664a71e2f0d(swig_intgo arg1, swig_intgo arg2);
 extern uintptr_t _wrap_new_BSpline__SWIG_5_tinyspline_beac5664a71e2f0d(swig_intgo arg1);
 extern void _wrap_delete_BSpline_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
-extern uintptr_t _wrap_BSpline_interpolateCubicNatural_tinyspline_beac5664a71e2f0d(swig_type_10 arg1, swig_intgo arg2);
-extern uintptr_t _wrap_BSpline_interpolateCatmullRom__SWIG_0_tinyspline_beac5664a71e2f0d(swig_type_11 arg1, swig_intgo arg2, double arg3, swig_type_12 arg4, swig_type_13 arg5, double arg6);
-extern uintptr_t _wrap_BSpline_interpolateCatmullRom__SWIG_1_tinyspline_beac5664a71e2f0d(swig_type_14 arg1, swig_intgo arg2, double arg3, swig_type_15 arg4, swig_type_16 arg5);
-extern uintptr_t _wrap_BSpline_interpolateCatmullRom__SWIG_2_tinyspline_beac5664a71e2f0d(swig_type_17 arg1, swig_intgo arg2, double arg3, swig_type_18 arg4);
-extern uintptr_t _wrap_BSpline_interpolateCatmullRom__SWIG_3_tinyspline_beac5664a71e2f0d(swig_type_19 arg1, swig_intgo arg2, double arg3);
-extern uintptr_t _wrap_BSpline_interpolateCatmullRom__SWIG_4_tinyspline_beac5664a71e2f0d(swig_type_20 arg1, swig_intgo arg2);
-extern uintptr_t _wrap_BSpline_parseJson_tinyspline_beac5664a71e2f0d(swig_type_21 arg1);
-extern uintptr_t _wrap_BSpline_load_tinyspline_beac5664a71e2f0d(swig_type_22 arg1);
+extern uintptr_t _wrap_BSpline_interpolateCubicNatural_tinyspline_beac5664a71e2f0d(swig_type_13 arg1, swig_intgo arg2);
+extern uintptr_t _wrap_BSpline_interpolateCatmullRom__SWIG_0_tinyspline_beac5664a71e2f0d(swig_type_14 arg1, swig_intgo arg2, double arg3, swig_type_15 arg4, swig_type_16 arg5, double arg6);
+extern uintptr_t _wrap_BSpline_interpolateCatmullRom__SWIG_1_tinyspline_beac5664a71e2f0d(swig_type_17 arg1, swig_intgo arg2, double arg3, swig_type_18 arg4, swig_type_19 arg5);
+extern uintptr_t _wrap_BSpline_interpolateCatmullRom__SWIG_2_tinyspline_beac5664a71e2f0d(swig_type_20 arg1, swig_intgo arg2, double arg3, swig_type_21 arg4);
+extern uintptr_t _wrap_BSpline_interpolateCatmullRom__SWIG_3_tinyspline_beac5664a71e2f0d(swig_type_22 arg1, swig_intgo arg2, double arg3);
+extern uintptr_t _wrap_BSpline_interpolateCatmullRom__SWIG_4_tinyspline_beac5664a71e2f0d(swig_type_23 arg1, swig_intgo arg2);
+extern uintptr_t _wrap_BSpline_parseJson_tinyspline_beac5664a71e2f0d(swig_type_24 arg1);
+extern uintptr_t _wrap_BSpline_load_tinyspline_beac5664a71e2f0d(swig_type_25 arg1);
 extern _Bool _wrap_BSpline_knotsEqual_tinyspline_beac5664a71e2f0d(double arg1, double arg2);
 extern uintptr_t _wrap_BSpline_controlPointVec2At_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_intgo arg2);
 extern uintptr_t _wrap_BSpline_controlPointVec3At_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_intgo arg2);
 extern uintptr_t _wrap_BSpline_controlPointVec4At_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_intgo arg2);
 extern double _wrap_BSpline_knotAt_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_intgo arg2);
 extern uintptr_t _wrap_BSpline_eval_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2);
-extern swig_type_23 _wrap_BSpline_evalAll_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_type_24 arg2);
-extern swig_type_25 _wrap_BSpline_sample__SWIG_0_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_intgo arg2);
-extern swig_type_26 _wrap_BSpline_sample__SWIG_1_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_26 _wrap_BSpline_evalAll_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_type_27 arg2);
+extern swig_type_28 _wrap_BSpline_sample__SWIG_0_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_intgo arg2);
+extern swig_type_29 _wrap_BSpline_sample__SWIG_1_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_BSpline_bisect__SWIG_0_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2, double arg3, _Bool arg4, swig_intgo arg5, _Bool arg6, swig_intgo arg7);
 extern uintptr_t _wrap_BSpline_bisect__SWIG_1_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2, double arg3, _Bool arg4, swig_intgo arg5, _Bool arg6);
 extern uintptr_t _wrap_BSpline_bisect__SWIG_2_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2, double arg3, _Bool arg4, swig_intgo arg5);
@@ -202,12 +211,12 @@ extern uintptr_t _wrap_BSpline_bisect__SWIG_4_tinyspline_beac5664a71e2f0d(uintpt
 extern uintptr_t _wrap_BSpline_bisect__SWIG_5_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2);
 extern _Bool _wrap_BSpline_isClosed__SWIG_0_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2);
 extern _Bool _wrap_BSpline_isClosed__SWIG_1_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
-extern uintptr_t _wrap_BSpline_computeRMF__SWIG_0_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_type_27 arg2, uintptr_t arg3);
-extern uintptr_t _wrap_BSpline_computeRMF__SWIG_1_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_type_28 arg2);
-extern swig_type_29 _wrap_BSpline_uniformKnotSeq__SWIG_0_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_intgo arg2);
-extern swig_type_30 _wrap_BSpline_uniformKnotSeq__SWIG_1_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
-extern swig_type_31 _wrap_BSpline_toJson_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
-extern void _wrap_BSpline_save_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_type_32 arg2);
+extern uintptr_t _wrap_BSpline_computeRMF__SWIG_0_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_type_30 arg2, uintptr_t arg3);
+extern uintptr_t _wrap_BSpline_computeRMF__SWIG_1_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_type_31 arg2);
+extern swig_type_32 _wrap_BSpline_uniformKnotSeq__SWIG_0_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_intgo arg2);
+extern swig_type_33 _wrap_BSpline_uniformKnotSeq__SWIG_1_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_34 _wrap_BSpline_toJson_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern void _wrap_BSpline_save_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_type_35 arg2);
 extern void _wrap_BSpline_setControlPointVec2At_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
 extern void _wrap_BSpline_setControlPointVec3At_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
 extern void _wrap_BSpline_setControlPointVec4At_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
@@ -225,20 +234,20 @@ extern uintptr_t _wrap_BSpline_alignWith__SWIG_0_tinyspline_beac5664a71e2f0d(uin
 extern uintptr_t _wrap_BSpline_alignWith__SWIG_1_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
 extern uintptr_t _wrap_BSpline_morphTo__SWIG_0_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2, double arg3);
 extern uintptr_t _wrap_BSpline_morphTo__SWIG_1_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
-extern swig_type_33 _wrap_BSpline_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_36 _wrap_BSpline_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern swig_intgo _wrap_BSpline_degree_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern swig_intgo _wrap_BSpline_order_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern swig_intgo _wrap_BSpline_dimension_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern swig_intgo _wrap_BSpline_numControlPoints_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_BSpline_domain_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
-extern void _wrap_BSpline_controlPoints_set_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_type_34 arg2);
-extern swig_type_35 _wrap_BSpline_controlPoints_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
-extern void _wrap_BSpline_knots_set_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_type_36 arg2);
-extern swig_type_37 _wrap_BSpline_knots_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern void _wrap_BSpline_controlPoints_set_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_type_37 arg2);
+extern swig_type_38 _wrap_BSpline_controlPoints_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern void _wrap_BSpline_knots_set_tinyspline_beac5664a71e2f0d(uintptr_t arg1, swig_type_39 arg2);
+extern swig_type_40 _wrap_BSpline_knots_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_new_Morphism__SWIG_0_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2, double arg3);
 extern uintptr_t _wrap_new_Morphism__SWIG_1_tinyspline_beac5664a71e2f0d(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_Morphism_eval_tinyspline_beac5664a71e2f0d(uintptr_t arg1, double arg2);
-extern swig_type_38 _wrap_Morphism_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
+extern swig_type_41 _wrap_Morphism_string_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_Morphism_origin_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern uintptr_t _wrap_Morphism_target_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
 extern double _wrap_Morphism_epsilon_get_tinyspline_beac5664a71e2f0d(uintptr_t arg1);
@@ -352,6 +361,13 @@ func (arg1 SwigcptrVec2) Multiply(arg2 float64) (_swig_ret Vec2) {
 	return swig_r
 }
 
+func (arg1 SwigcptrVec2) Normalize() (_swig_ret Vec2) {
+	var swig_r Vec2
+	_swig_i_0 := arg1
+	swig_r = (Vec2)(SwigcptrVec2(C._wrap_Vec2_normalize_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
 func (arg1 SwigcptrVec2) Norm() (_swig_ret Vec2) {
 	var swig_r Vec2
 	_swig_i_0 := arg1
@@ -426,6 +442,14 @@ func (arg1 SwigcptrVec2) GetY() (_swig_ret float64) {
 	return swig_r
 }
 
+func (arg1 SwigcptrVec2) GetValues() (_swig_ret []float64) {
+	var swig_r []float64
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_Vec2_values_get_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*[]float64)(unsafe.Pointer(&swig_r_p))
+	return swig_r
+}
+
 func DeleteVec2(arg1 Vec2) {
 	_swig_i_0 := arg1.Swigcptr()
 	C._wrap_delete_Vec2_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0))
@@ -437,6 +461,7 @@ type Vec2 interface {
 	Add(arg2 Vec2) (_swig_ret Vec2)
 	Subtract(arg2 Vec2) (_swig_ret Vec2)
 	Multiply(arg2 float64) (_swig_ret Vec2)
+	Normalize() (_swig_ret Vec2)
 	Norm() (_swig_ret Vec2)
 	Magnitude() (_swig_ret float64)
 	Dot(arg2 Vec2) (_swig_ret float64)
@@ -447,6 +472,7 @@ type Vec2 interface {
 	GetX() (_swig_ret float64)
 	SetY(arg2 float64)
 	GetY() (_swig_ret float64)
+	GetValues() (_swig_ret []float64)
 }
 
 type SwigcptrVec3 uintptr
@@ -513,6 +539,13 @@ func (arg1 SwigcptrVec3) Cross(arg2 Vec3) (_swig_ret Vec3) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	swig_r = (Vec3)(SwigcptrVec3(C._wrap_Vec3_cross_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	return swig_r
+}
+
+func (arg1 SwigcptrVec3) Normalize() (_swig_ret Vec3) {
+	var swig_r Vec3
+	_swig_i_0 := arg1
+	swig_r = (Vec3)(SwigcptrVec3(C._wrap_Vec3_normalize_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -603,6 +636,14 @@ func (arg1 SwigcptrVec3) GetZ() (_swig_ret float64) {
 	return swig_r
 }
 
+func (arg1 SwigcptrVec3) GetValues() (_swig_ret []float64) {
+	var swig_r []float64
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_Vec3_values_get_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*[]float64)(unsafe.Pointer(&swig_r_p))
+	return swig_r
+}
+
 func DeleteVec3(arg1 Vec3) {
 	_swig_i_0 := arg1.Swigcptr()
 	C._wrap_delete_Vec3_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0))
@@ -615,6 +656,7 @@ type Vec3 interface {
 	Subtract(arg2 Vec3) (_swig_ret Vec3)
 	Multiply(arg2 float64) (_swig_ret Vec3)
 	Cross(arg2 Vec3) (_swig_ret Vec3)
+	Normalize() (_swig_ret Vec3)
 	Norm() (_swig_ret Vec3)
 	Magnitude() (_swig_ret float64)
 	Dot(arg2 Vec3) (_swig_ret float64)
@@ -627,6 +669,7 @@ type Vec3 interface {
 	GetY() (_swig_ret float64)
 	SetZ(arg2 float64)
 	GetZ() (_swig_ret float64)
+	GetValues() (_swig_ret []float64)
 }
 
 type SwigcptrVec4 uintptr
@@ -686,6 +729,13 @@ func (arg1 SwigcptrVec4) Multiply(arg2 float64) (_swig_ret Vec4) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	swig_r = (Vec4)(SwigcptrVec4(C._wrap_Vec4_multiply_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
+	return swig_r
+}
+
+func (arg1 SwigcptrVec4) Normalize() (_swig_ret Vec4) {
+	var swig_r Vec4
+	_swig_i_0 := arg1
+	swig_r = (Vec4)(SwigcptrVec4(C._wrap_Vec4_normalize_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -789,6 +839,14 @@ func (arg1 SwigcptrVec4) GetW() (_swig_ret float64) {
 	return swig_r
 }
 
+func (arg1 SwigcptrVec4) GetValues() (_swig_ret []float64) {
+	var swig_r []float64
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_Vec4_values_get_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*[]float64)(unsafe.Pointer(&swig_r_p))
+	return swig_r
+}
+
 func DeleteVec4(arg1 Vec4) {
 	_swig_i_0 := arg1.Swigcptr()
 	C._wrap_delete_Vec4_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0))
@@ -800,6 +858,7 @@ type Vec4 interface {
 	Add(arg2 Vec4) (_swig_ret Vec4)
 	Subtract(arg2 Vec4) (_swig_ret Vec4)
 	Multiply(arg2 float64) (_swig_ret Vec4)
+	Normalize() (_swig_ret Vec4)
 	Norm() (_swig_ret Vec4)
 	Magnitude() (_swig_ret float64)
 	Dot(arg2 Vec4) (_swig_ret float64)
@@ -814,6 +873,7 @@ type Vec4 interface {
 	GetZ() (_swig_ret float64)
 	SetW(arg2 float64)
 	GetW() (_swig_ret float64)
+	GetValues() (_swig_ret []float64)
 }
 
 type SwigcptrFrame uintptr
@@ -1303,7 +1363,7 @@ func BSplineInterpolateCubicNatural(arg1 []float64, arg2 int) (_swig_ret BSpline
 	var swig_r BSpline
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_interpolateCubicNatural_tinyspline_beac5664a71e2f0d(*(*C.swig_type_10)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1))))
+	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_interpolateCubicNatural_tinyspline_beac5664a71e2f0d(*(*C.swig_type_13)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1318,7 +1378,7 @@ func BSplineInterpolateCatmullRom__SWIG_0(arg1 []float64, arg2 int, arg3 float64
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_interpolateCatmullRom__SWIG_0_tinyspline_beac5664a71e2f0d(*(*C.swig_type_11)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.double(_swig_i_2), *(*C.swig_type_12)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_13)(unsafe.Pointer(&_swig_i_4)), C.double(_swig_i_5))))
+	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_interpolateCatmullRom__SWIG_0_tinyspline_beac5664a71e2f0d(*(*C.swig_type_14)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.double(_swig_i_2), *(*C.swig_type_15)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_16)(unsafe.Pointer(&_swig_i_4)), C.double(_swig_i_5))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1338,7 +1398,7 @@ func BSplineInterpolateCatmullRom__SWIG_1(arg1 []float64, arg2 int, arg3 float64
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_interpolateCatmullRom__SWIG_1_tinyspline_beac5664a71e2f0d(*(*C.swig_type_14)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.double(_swig_i_2), *(*C.swig_type_15)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_16)(unsafe.Pointer(&_swig_i_4)))))
+	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_interpolateCatmullRom__SWIG_1_tinyspline_beac5664a71e2f0d(*(*C.swig_type_17)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.double(_swig_i_2), *(*C.swig_type_18)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_19)(unsafe.Pointer(&_swig_i_4)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1357,7 +1417,7 @@ func BSplineInterpolateCatmullRom__SWIG_2(arg1 []float64, arg2 int, arg3 float64
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_interpolateCatmullRom__SWIG_2_tinyspline_beac5664a71e2f0d(*(*C.swig_type_17)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.double(_swig_i_2), *(*C.swig_type_18)(unsafe.Pointer(&_swig_i_3)))))
+	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_interpolateCatmullRom__SWIG_2_tinyspline_beac5664a71e2f0d(*(*C.swig_type_20)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.double(_swig_i_2), *(*C.swig_type_21)(unsafe.Pointer(&_swig_i_3)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1372,7 +1432,7 @@ func BSplineInterpolateCatmullRom__SWIG_3(arg1 []float64, arg2 int, arg3 float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_interpolateCatmullRom__SWIG_3_tinyspline_beac5664a71e2f0d(*(*C.swig_type_19)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.double(_swig_i_2))))
+	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_interpolateCatmullRom__SWIG_3_tinyspline_beac5664a71e2f0d(*(*C.swig_type_22)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.double(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1383,7 +1443,7 @@ func BSplineInterpolateCatmullRom__SWIG_4(arg1 []float64, arg2 int) (_swig_ret B
 	var swig_r BSpline
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_interpolateCatmullRom__SWIG_4_tinyspline_beac5664a71e2f0d(*(*C.swig_type_20)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1))))
+	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_interpolateCatmullRom__SWIG_4_tinyspline_beac5664a71e2f0d(*(*C.swig_type_23)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1413,7 +1473,7 @@ func BSplineInterpolateCatmullRom(a ...interface{}) BSpline {
 func BSplineParseJson(arg1 string) (_swig_ret BSpline) {
 	var swig_r BSpline
 	_swig_i_0 := arg1
-	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_parseJson_tinyspline_beac5664a71e2f0d(*(*C.swig_type_21)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_parseJson_tinyspline_beac5664a71e2f0d(*(*C.swig_type_24)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1423,7 +1483,7 @@ func BSplineParseJson(arg1 string) (_swig_ret BSpline) {
 func BSplineLoad(arg1 string) (_swig_ret BSpline) {
 	var swig_r BSpline
 	_swig_i_0 := arg1
-	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_load_tinyspline_beac5664a71e2f0d(*(*C.swig_type_22)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (BSpline)(SwigcptrBSpline(C._wrap_BSpline_load_tinyspline_beac5664a71e2f0d(*(*C.swig_type_25)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1482,7 +1542,7 @@ func (arg1 SwigcptrBSpline) EvalAll(arg2 []float64) (_swig_ret []float64) {
 	var swig_r []float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r_p := C._wrap_BSpline_evalAll_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0), *(*C.swig_type_24)(unsafe.Pointer(&_swig_i_1)))
+	swig_r_p := C._wrap_BSpline_evalAll_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0), *(*C.swig_type_27)(unsafe.Pointer(&_swig_i_1)))
 	swig_r = *(*[]float64)(unsafe.Pointer(&swig_r_p))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
@@ -1635,7 +1695,7 @@ func (arg1 SwigcptrBSpline) ComputeRMF__SWIG_0(arg2 []float64, arg3 Vec3) (_swig
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (FrameSeq)(SwigcptrFrameSeq(C._wrap_BSpline_computeRMF__SWIG_0_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0), *(*C.swig_type_27)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))))
+	swig_r = (FrameSeq)(SwigcptrFrameSeq(C._wrap_BSpline_computeRMF__SWIG_0_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0), *(*C.swig_type_30)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1646,7 +1706,7 @@ func (arg1 SwigcptrBSpline) ComputeRMF__SWIG_1(arg2 []float64) (_swig_ret FrameS
 	var swig_r FrameSeq
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (FrameSeq)(SwigcptrFrameSeq(C._wrap_BSpline_computeRMF__SWIG_1_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0), *(*C.swig_type_28)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (FrameSeq)(SwigcptrFrameSeq(C._wrap_BSpline_computeRMF__SWIG_1_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1705,7 +1765,7 @@ func (arg1 SwigcptrBSpline) ToJson() (_swig_ret string) {
 func (arg1 SwigcptrBSpline) Save(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BSpline_save_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0), *(*C.swig_type_32)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_BSpline_save_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0), *(*C.swig_type_35)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1943,7 +2003,7 @@ func (arg1 SwigcptrBSpline) GetDomain() (_swig_ret Domain) {
 func (arg1 SwigcptrBSpline) SetControlPoints(arg2 []float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BSpline_controlPoints_set_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0), *(*C.swig_type_34)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_BSpline_controlPoints_set_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0), *(*C.swig_type_37)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1960,7 +2020,7 @@ func (arg1 SwigcptrBSpline) GetControlPoints() (_swig_ret []float64) {
 func (arg1 SwigcptrBSpline) SetKnots(arg2 []float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BSpline_knots_set_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0), *(*C.swig_type_36)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_BSpline_knots_set_tinyspline_beac5664a71e2f0d(C.uintptr_t(_swig_i_0), *(*C.swig_type_39)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
